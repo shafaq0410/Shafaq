@@ -7,4 +7,4 @@ Showcasing my projects, skills, and work as an aspiring software developer.
 
 ---
 
-Inspired by [Gazi's portfolio]
+
