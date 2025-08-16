@@ -29,19 +29,19 @@ class Intro extends React.Component {
         <Typist avgTypingDelay={120}>
           <span className="intro-title">
             {"hi, "}
-            <span className="intro-name">{"gazi"}</span>
+            <span className="intro-name">{"shafaq"}</span>
             {" here."}
           </span>
         </Typist>
         <FadeInSection>
           <div className="intro-subtitle">I create stuff sometimes.</div>
           <div className="intro-desc">
-            I'm a software engineer from Toronto, Canada. I'm fascinated by
-            large-scale, high-impact products and contributed to major feature launches in
-            industry-leading services as well as apps that have 100M+ installs.
+           I'm an aspiring software developer from India, exploring the intersections of AI, Web Development.
+            My projects include AI-driven applications, full-stack web apps, and creative tools that aim to solve real-world problems.
+
           </div>
           <a
-            href="mailto:gazijarin@gmail.com"
+            href="mailto:shafaqali0410@gmail.com"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>

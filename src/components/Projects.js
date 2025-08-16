@@ -23,83 +23,84 @@ class Projects extends React.Component {
   render() {
     const spotlightProjects = {
       "No Man's Land": {
-        title: "no man's land",
+        title: "Intelligent Video Surveillance System",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
+          "A full-stack intelligent video surveillance system with motion, object, and face detection.",
+        techStack: "PYTHON, FLASK, YOLOV8, OPENCV, FACE_RECOGNITION, SQLITE, JAVASCRIPT, BOOTSTRAP",
+        link: "https://github.com/shafaq0410/IVSS-Video-Surveillance",
+        open: "https://github.com/shafaq0410/IVSS-Video-Surveillance",
         image: "/assets/nomansland.png"
       },
       Truth: {
-        title: "truth",
+        title: "fake news detection",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
+          "Fake News? Not on my watch! 🕵️‍♀️ An AI-powered rumor-buster that sniffs out lies faster than you can say “clickbait.” Built with NLP + fact-check APIs + a sleek frontend. Stay woke, stay informed.",
+        techStack: "C++ , CMAKE , DART , PYTHON , SWIFT",
+        link: "https://github.com/shafaq0410/fake-news-detection-v2",
+        open: "https://github.com/shafaq0410/fake-news-detection-v2",
         image: "/assets/truth.png"
       },
       "Tall Tales": {
-        title: "tall tales",
+        title: "ejs blog",
         desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
+          "This is a simple blog web application built using Node.js, Express, and EJS. It allows users to compose blog posts, view them on the homepage, and navigate to full content using dynamic routing",
+        techStack: "JAVASCRIPT , EJS , CSS",
+        link: "https://github.com/shafaq0410/ejs-blog",
+        open: "https://github.com/shafaq0410/ejs-blog",
         image: "/assets/talltales.png"
       },
       Portfolio: {
-        title: "portfolio.js",
+        title: "FlaskQuoteApp",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
+          "A Python Flask web app that greets you by name and surprises you with a new inspirational quote every time.",
+        techStack: "PYTHON, FLASK , HTML",
+        link: "https://github.com/shafaq0410/FlaskQuoteApp",
+        open: "https://github.com/shafaq0410/FlaskQuoteApp",
         image: "/assets/portfolio.png"
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "legendary-guide": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "This is a fun, interactive website designed to connect dog owners and their furry friends with nearby playmates. Whether you're looking for a casual meetup or a lifelong companion for your dog, Woof-Buddies has you covered.",
+        techStack: "HTML , CSS",
+        link: "https://github.com/shafaq0410/legendary-guide",
+        open: "https://shafaq0410.github.io/legendary-guide/"
       },
-      "Adam A.I.": {
+      "ToDoList": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+          "A simple ToDo List web application built with Node.js, Express, EJS templating, and MongoDB Atlas for data storage.",
+        techStack: "Javascript, HTML / CSS , EJS , MongoDB",
+        link: "https://github.com/shafaq0410/ToDoList"
+        
       },
-      "Distributed Logging and Monitoring System": {
+      "Drum Kit": {
         desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
+          "An interactive Drum Kit web app built with HTML, CSS, and JavaScript. Play different drum sounds by clicking buttons or using keyboard keys (w, a, s, d, j, k, l)",
         techStack: "Node.js (Express.js), React.js, PostgreSQL",
         link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          "https://github.com/shafaq0410/Drum-Kit",
+        open: "https://shafaq0410.github.io/Drum-Kit/"
       },
-      "Odin Bot": {
+      "Weather App": {
         desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
+          "A simple and elegant Node.js & Express web app that fetches and displays real-time weather information for any city using the OpenWeatherMap API.",
+        techStack: "Express.js Node.js",
+        link: "https://github.com/shafaq0410/weather-app",
         open: ""
       },
-      "Game Centre": {
+      "Real Time Chat App": {
         desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
+          "A sleek and snappy realtime chat app built with Next.js, Express, and Pusher, featuring emoji-based sentiment analysis in every message! ",
+        techStack: "Javascript , next.js , Express.js ,Pusher",
+        link: "https://github.com/shafaq0410/realtime-chat-app",
         open: ""
       },
-      "Minimax Stonehenge": {
+      "coffee_pref_app": {
         desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
+          "A warm cup of Flutter practice — layouts, widgets, and coffee preferences made simple.",
+        techStack: "C++ , Dart , Swift , HTML, Cmake",
+        link: "https://github.com/shafaq0410/coffee_pref_app",
         open: ""
       }
     };

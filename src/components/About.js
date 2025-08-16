@@ -19,27 +19,27 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route 53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+       I am currently pursuing a <b>Bachelor of Technology</b> in <b>Computer Science and Engineering</b> at
+<a href="https://www.iiitdmj.ac.in/"> IIIT Jabalpur</a>. Alongside my studies, I build projects in <b>AI, Web Development, and IoT</b>
+, including applications like Fake News Detection, Intelligent Video Surveillance Systems, and productivity tools. 
+
+        
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+       When I'm not working on tech, I spend my time writing stories, 
+       singing, and expressing myself through art.
       </p>
     );
 
     const tech_stack = [
-      "Typescript",
+      "Flutter",
       "Python",
       "React.js",
       "Java",
       "Javascript ES6+",
-      "C#"
+      "C++"
     ];
 
     return (
@@ -64,7 +64,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+              <img alt="Shafaq Ali" src={"/assets/me2.jpg"} />
             </div>
           </div>
         </FadeInSection>
